@@ -1,0 +1,10 @@
+{
+	"browserName": "chrome",
+	"browserVersion": "127.0.6533.119",
+	"osName": "darwin",
+	"osVersion": "23.0.0",
+	"nodeVersion": "20.12.2",
+	"cypressVersion": "13.13.1",
+	"startedTestsAt": "2024-08-15T19:32:02.210Z",
+	"endedTestsAt": "2024-08-15T19:32:03.889Z"
+}

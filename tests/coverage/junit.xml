@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="335" failures="0" errors="0" time="328.018">
+  <testsuite name="Metrics Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:09:09" time="38.583" tests="1">
+    <testcase classname="Metrics Component renders MetricCards with correct data" name="Metrics Component renders MetricCards with correct data" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="MetricsMaterial Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:09:09" time="38.58" tests="1">
+    <testcase classname="MetricsMaterial Component renders MetricCards with correct data" name="MetricsMaterial Component renders MetricCards with correct data" time="0.024">
+    </testcase>
+  </testsuite>
+  <testsuite name="ProcessBatchChart Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:09:09" time="204.126" tests="2">
+    <testcase classname="ProcessBatchChart Component renders BarChart with data if process data is available" name="ProcessBatchChart Component renders BarChart with data if process data is available" time="0.066">
+    </testcase>
+    <testcase classname="BatchDeviationChart Component renders BarChart with deviation data if available" name="BatchDeviationChart Component renders BarChart with deviation data if available" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ExtractedDataForm" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:09:48" time="166.853" tests="5">
+    <testcase classname="ExtractedDataForm should render the component" name="ExtractedDataForm should render the component" time="0.057">
+    </testcase>
+    <testcase classname="ExtractedDataForm should handle edit mode correctly" name="ExtractedDataForm should handle edit mode correctly" time="0.181">
+    </testcase>
+    <testcase classname="ExtractedDataForm should toggle to tableView without crashing" name="ExtractedDataForm should toggle to tableView without crashing" time="0.398">
+    </testcase>
+    <testcase classname="ExtractedDataForm should call handleAddObject when &quot;Add Object&quot; button is clicked without crashing" name="ExtractedDataForm should call handleAddObject when &quot;Add Object&quot; button is clicked without crashing" time="0.083">
+    </testcase>
+    <testcase classname="ExtractedDataForm should call onCancel without crashing" name="ExtractedDataForm should call onCancel without crashing" time="0.085">
+    </testcase>
+  </testsuite>
+  <testsuite name="MaterialSelector" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:09:09" time="210.224" tests="1">
+    <testcase classname="MaterialSelector renders correctly and handles material selection" name="MaterialSelector renders correctly and handles material selection" time="0.042">
+    </testcase>
+  </testsuite>
+  <testsuite name="SpecificBatch component" errors="0" failures="0" skipped="1" timestamp="2024-10-24T11:12:39" time="20.171" tests="3">
+    <testcase classname="SpecificBatch component renders without crashing" name="SpecificBatch component renders without crashing" time="0.172">
+    </testcase>
+    <testcase classname="SpecificBatch component navigates to batch details on row click" name="SpecificBatch component navigates to batch details on row click" time="0.133">
+    </testcase>
+    <testcase classname="SpecificBatch component changes material selector and navigates" name="SpecificBatch component changes material selector and navigates" time="0">
+      <skipped/>
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentsDatatable" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:00" time="2.272" tests="4">
+    <testcase classname="DocumentsDatatable renders table correctly" name="DocumentsDatatable renders table correctly" time="0.036">
+    </testcase>
+    <testcase classname="DocumentsDatatable updates global filter state and fetches new data" name="DocumentsDatatable updates global filter state and fetches new data" time="0.026">
+    </testcase>
+    <testcase classname="DocumentsDatatable handles pagination controls" name="DocumentsDatatable handles pagination controls" time="0.038">
+    </testcase>
+    <testcase classname="DocumentsDatatable handles search input correctly" name="DocumentsDatatable handles search input correctly" time="0.071">
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentAddObjectModal" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:09:48" time="212.799" tests="5">
+    <testcase classname="DocumentAddObjectModal renders correctly" name="DocumentAddObjectModal renders correctly" time="0.097">
+    </testcase>
+    <testcase classname="DocumentAddObjectModal renders correctly with empty groupedPaths array" name="DocumentAddObjectModal renders correctly with empty groupedPaths array" time="0.05">
+    </testcase>
+    <testcase classname="DocumentAddObjectModal renders correctly with empty groupedPaths array" name="DocumentAddObjectModal renders correctly with empty groupedPaths array" time="0.041">
+    </testcase>
+    <testcase classname="DocumentAddObjectModal renders correctly with undefined portalContainer" name="DocumentAddObjectModal renders correctly with undefined portalContainer" time="0.048">
+    </testcase>
+    <testcase classname="DocumentAddObjectModal renders correctly when discard button is click" name="DocumentAddObjectModal renders correctly when discard button is click" time="0.03">
+    </testcase>
+  </testsuite>
+  <testsuite name="InsightChatBox Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:12:35" time="65.554" tests="1">
+    <testcase classname="InsightChatBox Component renders without crashing" name="InsightChatBox Component renders without crashing" time="0.049">
+    </testcase>
+  </testsuite>
+  <testsuite name="InsightPage Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:12:33" time="67.91" tests="1">
+    <testcase classname="InsightPage Component renders InsightList and InsightChatBox correctly" name="InsightPage Component renders InsightList and InsightChatBox correctly" time="0.512">
+    </testcase>
+  </testsuite>
+  <testsuite name="MaterialBatchesTable Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:42" time="1.326" tests="6">
+    <testcase classname="MaterialBatchesTable Component should render the MaterialBatchesTable with data" name="MaterialBatchesTable Component should render the MaterialBatchesTable with data" time="0.016">
+    </testcase>
+    <testcase classname="MaterialBatchesTable Component should render TableSkeleton when no data is provided" name="MaterialBatchesTable Component should render TableSkeleton when no data is provided" time="0.002">
+    </testcase>
+    <testcase classname="MaterialBatchesTable Component should navigate to the correct URL when row is clicked" name="MaterialBatchesTable Component should navigate to the correct URL when row is clicked" time="0.004">
+    </testcase>
+    <testcase classname="OnBoardedMaterialTable Component should render the OnBoardedMaterialTable with data" name="OnBoardedMaterialTable Component should render the OnBoardedMaterialTable with data" time="0.003">
+    </testcase>
+    <testcase classname="OnBoardedMaterialTable Component should render TableSkeleton when no data is provided" name="OnBoardedMaterialTable Component should render TableSkeleton when no data is provided" time="0.001">
+    </testcase>
+    <testcase classname="OnBoardedMaterialTable Component should navigate to the correct URL when row is clicked" name="OnBoardedMaterialTable Component should navigate to the correct URL when row is clicked" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentReportIssueModal" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:43" time="1.072" tests="2">
+    <testcase classname="DocumentReportIssueModal renders modal and handles issue reporting correctly" name="DocumentReportIssueModal renders modal and handles issue reporting correctly" time="0.166">
+    </testcase>
+    <testcase classname="DocumentReportIssueModal displays error message if explanation is not provided" name="DocumentReportIssueModal displays error message if explanation is not provided" time="0.055">
+    </testcase>
+  </testsuite>
+  <testsuite name="ModalProvider" errors="0" failures="0" skipped="1" timestamp="2024-10-24T11:13:44" time="0.859" tests="6">
+    <testcase classname="ModalProvider should render children" name="ModalProvider should render children" time="0.007">
+    </testcase>
+    <testcase classname="ModalProvider should update openModal state" name="ModalProvider should update openModal state" time="0.106">
+    </testcase>
+    <testcase classname="ModalProvider should update edits state" name="ModalProvider should update edits state" time="0.106">
+    </testcase>
+    <testcase classname="ModalProvider should throw error when useModal is used outside ModalProvider" name="ModalProvider should throw error when useModal is used outside ModalProvider" time="0.123">
+    </testcase>
+    <testcase classname="ModalProvider should return initial openModal state" name="ModalProvider should return initial openModal state" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="ModalProvider should return initial edits state" name="ModalProvider should return initial edits state" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentConfirmEditModal" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:45" time="0.512" tests="4">
+    <testcase classname="DocumentConfirmEditModal renders save button when numberOfEdits is greater than 0" name="DocumentConfirmEditModal renders save button when numberOfEdits is greater than 0" time="0.016">
+    </testcase>
+    <testcase classname="DocumentConfirmEditModal renders direct confirmation button when numberOfEdits is 0" name="DocumentConfirmEditModal renders direct confirmation button when numberOfEdits is 0" time="0.008">
+    </testcase>
+    <testcase classname="DocumentConfirmEditModal opens modal when save button is clicked and handles modal buttons" name="DocumentConfirmEditModal opens modal when save button is clicked and handles modal buttons" time="0.06">
+    </testcase>
+    <testcase classname="DocumentConfirmEditModal renders correct message in ModalBody based on numberOfEdits" name="DocumentConfirmEditModal renders correct message in ModalBody based on numberOfEdits" time="0.059">
+    </testcase>
+  </testsuite>
+  <testsuite name="BrowsingBatches Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:45" time="0.829" tests="1">
+    <testcase classname="BrowsingBatches Component renders correctly and calls getMaterialBatchesFilter" name="BrowsingBatches Component renders correctly and calls getMaterialBatchesFilter" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="RootLayout Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:46" time="2.735" tests="2">
+    <testcase classname="RootLayout Component renders correctly" name="RootLayout Component renders correctly" time="0.12">
+    </testcase>
+    <testcase classname="RootLayout Component redirects when there is no session" name="RootLayout Component redirects when there is no session" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="MetricCardSkeleton" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:49" time="0.686" tests="1">
+    <testcase classname="MetricCardSkeleton renders without crashing" name="MetricCardSkeleton renders without crashing" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColumnHeader" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:50" time="0.465" tests="5">
+    <testcase classname="ColumnHeader renders children correctly" name="ColumnHeader renders children correctly" time="0.005">
+    </testcase>
+    <testcase classname="ColumnHeader displays ArrowDownIcon when sorted descending" name="ColumnHeader displays ArrowDownIcon when sorted descending" time="0.001">
+    </testcase>
+    <testcase classname="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" name="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" time="0.001">
+    </testcase>
+    <testcase classname="ColumnHeader calls toggleSorting when clicked" name="ColumnHeader calls toggleSorting when clicked" time="0.021">
+    </testcase>
+    <testcase classname="ColumnHeader toggles sorting direction when clicked" name="ColumnHeader toggles sorting direction when clicked" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColumnHeader" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:50" time="0.417" tests="5">
+    <testcase classname="ColumnHeader renders children correctly" name="ColumnHeader renders children correctly" time="0.005">
+    </testcase>
+    <testcase classname="ColumnHeader displays ArrowDownIcon when sorted descending" name="ColumnHeader displays ArrowDownIcon when sorted descending" time="0.002">
+    </testcase>
+    <testcase classname="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" name="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" time="0.001">
+    </testcase>
+    <testcase classname="ColumnHeader calls toggleSorting when clicked" name="ColumnHeader calls toggleSorting when clicked" time="0.006">
+    </testcase>
+    <testcase classname="ColumnHeader toggles sorting direction when clicked" name="ColumnHeader toggles sorting direction when clicked" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentRejectionModal" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:51" time="1.654" tests="3">
+    <testcase classname="DocumentRejectionModal renders modal and handles rejection correctly when nextDocId is provided" name="DocumentRejectionModal renders modal and handles rejection correctly when nextDocId is provided" time="0.177">
+    </testcase>
+    <testcase classname="DocumentRejectionModal renders modal and handles rejection correctly when nextDocId is not provided" name="DocumentRejectionModal renders modal and handles rejection correctly when nextDocId is not provided" time="0.239">
+    </testcase>
+    <testcase classname="DocumentRejectionModal displays error message when reason is not provided" name="DocumentRejectionModal displays error message when reason is not provided" time="0.177">
+    </testcase>
+  </testsuite>
+  <testsuite name="Input" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:52" time="0.545" tests="4">
+    <testcase classname="Input renders input field with default props" name="Input renders input field with default props" time="0.01">
+    </testcase>
+    <testcase classname="Input renders input field with checkbox" name="Input renders input field with checkbox" time="0.009">
+    </testcase>
+    <testcase classname="Input hides input row when isEditing is false and no value" name="Input hides input row when isEditing is false and no value" time="0.001">
+    </testcase>
+    <testcase classname="Input disables input field when currentStep is 1 and isDisabledField is true" name="Input disables input field when currentStep is 1 and isDisabledField is true" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="DualDocumentContainer Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:53" time="1.443" tests="5">
+    <testcase classname="DualDocumentContainer Component renders without crashing" name="DualDocumentContainer Component renders without crashing" time="0.021">
+    </testcase>
+    <testcase classname="DualDocumentContainer Component renders ExtractedDataForm with tableView initially set to true" name="DualDocumentContainer Component renders ExtractedDataForm with tableView initially set to true" time="0.006">
+    </testcase>
+    <testcase classname="DualDocumentContainer Component toggles tableView state when dropdown item is clicked" name="DualDocumentContainer Component toggles tableView state when dropdown item is clicked" time="0.053">
+    </testcase>
+    <testcase classname="DualDocumentContainer Component downloads JSON when download option is clicked" name="DualDocumentContainer Component downloads JSON when download option is clicked" time="0.044">
+    </testcase>
+    <testcase classname="DualDocumentContainer Component toggles blur state when ExtractedDataForm is clicked" name="DualDocumentContainer Component toggles blur state when ExtractedDataForm is clicked" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="ProductProfile" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:54" time="7.12" tests="5">
+    <testcase classname="ProductProfile renders without crashing" name="ProductProfile renders without crashing" time="0.012">
+    </testcase>
+    <testcase classname="ProductProfile displays the correct materialProfile description" name="ProductProfile displays the correct materialProfile description" time="0.01">
+    </testcase>
+    <testcase classname="ProductProfile displays the correct ChipBox title and chips" name="ProductProfile displays the correct ChipBox title and chips" time="0.013">
+    </testcase>
+    <testcase classname="ProductProfile returns null when chips is null or empty" name="ProductProfile returns null when chips is null or empty" time="0.002">
+    </testcase>
+    <testcase classname="ProductProfile renders MultipleChips when chips has multiple items" name="ProductProfile renders MultipleChips when chips has multiple items" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="ExtractedDataForm" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:01" time="1.193" tests="3">
+    <testcase classname="ExtractedDataForm should render the form and modal correctly" name="ExtractedDataForm should render the form and modal correctly" time="0.044">
+    </testcase>
+    <testcase classname="ExtractedDataForm should toggle tableView and show ExtractedDataJson when tableView is false" name="ExtractedDataForm should toggle tableView and show ExtractedDataJson when tableView is false" time="0.049">
+    </testcase>
+    <testcase classname="ExtractedDataForm should call handleAddObject when &quot;Add Object&quot; button is clicked without crashing" name="ExtractedDataForm should call handleAddObject when &quot;Add Object&quot; button is clicked without crashing" time="0.133">
+    </testcase>
+  </testsuite>
+  <testsuite name="columns configuration" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:03" time="2.556" tests="6">
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.02">
+    </testcase>
+    <testcase classname="columns configuration renders trend chip with danger color when rating trend is negative" name="columns configuration renders trend chip with danger color when rating trend is negative" time="0.005">
+    </testcase>
+    <testcase classname="columns configuration renders SingleChip and SingleProduct" name="columns configuration renders SingleChip and SingleProduct" time="0.011">
+    </testcase>
+    <testcase classname="columns configuration renders availability chip with correct color without crashing" name="columns configuration renders availability chip with correct color without crashing" time="0.015">
+    </testcase>
+    <testcase classname="columns configuration renders &apos;No products available&apos; message" name="columns configuration renders &apos;No products available&apos; message" time="0.009">
+    </testcase>
+    <testcase classname="columns configuration renders &apos;No vendors available&apos; message" name="columns configuration renders &apos;No vendors available&apos; message" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ProcessSelector" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:05" time="1.208" tests="5">
+    <testcase classname="ProcessSelector should render the ProcessSelector component and display dropdowns" name="ProcessSelector should render the ProcessSelector component and display dropdowns" time="0">
+    </testcase>
+    <testcase classname="ProcessSelector should call onSelectProcess when a process and process step are selected" name="ProcessSelector should call onSelectProcess when a process and process step are selected" time="0">
+    </testcase>
+    <testcase classname="ProcessSelector should handle empty process dropdowns gracefully" name="ProcessSelector should handle empty process dropdowns gracefully" time="0.034">
+    </testcase>
+    <testcase classname="ProcessSelector should handle missing process steps gracefully" name="ProcessSelector should handle missing process steps gracefully" time="0">
+    </testcase>
+    <testcase classname="ProcessSelector should cover getProcessDetail function" name="ProcessSelector should cover getProcessDetail function" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="NavSideBar" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:06" time="0.958" tests="8">
+    <testcase classname="NavSideBar renders all links" name="NavSideBar renders all links" time="0.012">
+    </testcase>
+    <testcase classname="NavSideBar highlights the active link" name="NavSideBar highlights the active link" time="0.003">
+    </testcase>
+    <testcase classname="NavSideBar does not highlight inactive links" name="NavSideBar does not highlight inactive links" time="0.002">
+    </testcase>
+    <testcase classname="NavSideBar renders link labels correctly" name="NavSideBar renders link labels correctly" time="0.002">
+    </testcase>
+    <testcase classname="NavSideBar renders disabled links correctly" name="NavSideBar renders disabled links correctly" time="0.001">
+    </testcase>
+    <testcase classname="NavSideBar renders links with children correctly" name="NavSideBar renders links with children correctly" time="0.079">
+    </testcase>
+    <testcase classname="NavSideBar renders custom children prop correctly" name="NavSideBar renders custom children prop correctly" time="0.002">
+    </testcase>
+    <testcase classname="NavSideBar handles empty links prop correctly" name="NavSideBar handles empty links prop correctly" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentApprovalModal" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:07" time="1.372" tests="4">
+    <testcase classname="DocumentApprovalModal renders the button and modal correctly" name="DocumentApprovalModal renders the button and modal correctly" time="0.069">
+    </testcase>
+    <testcase classname="DocumentApprovalModal handles approve action correctly when nextId is provided" name="DocumentApprovalModal handles approve action correctly when nextId is provided" time="0.102">
+    </testcase>
+    <testcase classname="DocumentApprovalModal handles approve action correctly when nextId is not provided" name="DocumentApprovalModal handles approve action correctly when nextId is not provided" time="0.066">
+    </testcase>
+    <testcase classname="DocumentApprovalModal displays correct text based on numberOfEdits" name="DocumentApprovalModal displays correct text based on numberOfEdits" time="0.012">
+    </testcase>
+  </testsuite>
+  <testsuite name="SpecificBatch component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:02" time="67.333" tests="5">
+    <testcase classname="SpecificBatch component renders without crashing" name="SpecificBatch component renders without crashing" time="0.031">
+    </testcase>
+    <testcase classname="transformChartData function transforms response data correctly" name="transformChartData function transforms response data correctly" time="0.003">
+    </testcase>
+    <testcase classname="transformChartData function handles empty response array" name="transformChartData function handles empty response array" time="0.001">
+    </testcase>
+    <testcase classname="transformTableData function transforms response data correctly" name="transformTableData function transforms response data correctly" time="0.001">
+    </testcase>
+    <testcase classname="transformTableData function handles empty response array" name="transformTableData function handles empty response array" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="BrowsingBatchesDataTable" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:09" time="2.325" tests="3">
+    <testcase classname="BrowsingBatchesDataTable renders the table with correct columns and rows" name="BrowsingBatchesDataTable renders the table with correct columns and rows" time="0.059">
+    </testcase>
+    <testcase classname="BrowsingBatchesDataTable calls onClickRow when a row is clicked" name="BrowsingBatchesDataTable calls onClickRow when a row is clicked" time="0.021">
+    </testcase>
+    <testcase classname="BrowsingBatchesDataTable toggles column visibility" name="BrowsingBatchesDataTable toggles column visibility" time="0.185">
+    </testcase>
+  </testsuite>
+  <testsuite name="columns configuration" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:10" time="1.813" tests="3">
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.075">
+    </testcase>
+    <testcase classname="columns configuration renders table with columns correctly when names are empty" name="columns configuration renders table with columns correctly when names are empty" time="0.008">
+    </testcase>
+    <testcase classname="columns configuration renders table with columns correctly when names are long" name="columns configuration renders table with columns correctly when names are long" time="0.021">
+    </testcase>
+  </testsuite>
+  <testsuite name="BrowsingBatches Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:11" time="1.092" tests="2">
+    <testcase classname="BrowsingBatches Component renders correctly and calls getMaterialsFilter" name="BrowsingBatches Component renders correctly and calls getMaterialsFilter" time="0.055">
+    </testcase>
+    <testcase classname="BrowsingBatches Component filters through columns" name="BrowsingBatches Component filters through columns" time="0.043">
+    </testcase>
+  </testsuite>
+  <testsuite name="columns configuration" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:21" time="52.343" tests="3">
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.024">
+    </testcase>
+    <testcase classname="columns configuration renders quartiles data correctly" name="columns configuration renders quartiles data correctly" time="0.049">
+    </testcase>
+    <testcase classname="columns configuration renders quartiles data correctly with success" name="columns configuration renders quartiles data correctly with success" time="0.019">
+    </testcase>
+  </testsuite>
+  <testsuite name="BatchInformation" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:13:40" time="32.997" tests="2">
+    <testcase classname="BatchInformation should render BatchInformationTable when item prop is provided" name="BatchInformation should render BatchInformationTable when item prop is provided" time="0.066">
+    </testcase>
+    <testcase classname="BatchInformation should render TableSkeleton when item prop is not provided" name="BatchInformation should render TableSkeleton when item prop is not provided" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="BatchInformation" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:12" time="1.34" tests="2">
+    <testcase classname="BatchInformation should render BatchInformationTable when item prop is provided" name="BatchInformation should render BatchInformationTable when item prop is provided" time="0.032">
+    </testcase>
+    <testcase classname="BatchInformation should render TableSkeleton when item prop is not provided" name="BatchInformation should render TableSkeleton when item prop is not provided" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="BatchCharacteristics" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:09:09" time="305.107" tests="8">
+    <testcase classname="BatchCharacteristics renders without crashing" name="BatchCharacteristics renders without crashing" time="0.235">
+    </testcase>
+    <testcase classname="BatchCharacteristics updates selectedView state when handleToggleView is triggered" name="BatchCharacteristics updates selectedView state when handleToggleView is triggered" time="0.033">
+    </testcase>
+    <testcase classname="BatchCharacteristics renders BatchCharacteristics component without crashing" name="BatchCharacteristics renders BatchCharacteristics component without crashing" time="0.013">
+    </testcase>
+    <testcase classname="BatchCharacteristics fetches batch characteristics data on mount" name="BatchCharacteristics fetches batch characteristics data on mount" time="0.28">
+    </testcase>
+    <testcase classname="BatchCharacteristics fetches material options on mount" name="BatchCharacteristics fetches material options on mount" time="0.078">
+    </testcase>
+    <testcase classname="BatchCharacteristics fetches batch selector data on mount" name="BatchCharacteristics fetches batch selector data on mount" time="0.054">
+    </testcase>
+    <testcase classname="BatchCharacteristics updates selector state when onChangeSelector is triggered" name="BatchCharacteristics updates selector state when onChangeSelector is triggered" time="0.074">
+    </testcase>
+    <testcase classname="BatchCharacteristics toggles view when handleToggleView is triggered" name="BatchCharacteristics toggles view when handleToggleView is triggered" time="0.03">
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentCancelModal" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:13" time="1.905" tests="4">
+    <testcase classname="DocumentCancelModal renders discard button when numberOfEdits is greater than 0" name="DocumentCancelModal renders discard button when numberOfEdits is greater than 0" time="0.02">
+    </testcase>
+    <testcase classname="DocumentCancelModal renders direct discard button when numberOfEdits is 0" name="DocumentCancelModal renders direct discard button when numberOfEdits is 0" time="0.015">
+    </testcase>
+    <testcase classname="DocumentCancelModal opens modal when discard button is clicked and handles modal buttons" name="DocumentCancelModal opens modal when discard button is clicked and handles modal buttons" time="0.069">
+    </testcase>
+    <testcase classname="DocumentCancelModal displays correct text based on numberOfEdits" name="DocumentCancelModal displays correct text based on numberOfEdits" time="0.02">
+    </testcase>
+  </testsuite>
+  <testsuite name="BrowsingBatchesDataTable" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:13" time="1.348" tests="2">
+    <testcase classname="BrowsingBatchesDataTable renders table headers and cells correctly" name="BrowsingBatchesDataTable renders table headers and cells correctly" time="0.096">
+    </testcase>
+    <testcase classname="handleDownload should create a download link and append it to the body" name="handleDownload should create a download link and append it to the body" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColumnHeader" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:13" time="1.369" tests="5">
+    <testcase classname="ColumnHeader renders children correctly" name="ColumnHeader renders children correctly" time="0.021">
+    </testcase>
+    <testcase classname="ColumnHeader displays ArrowDownIcon when sorted descending" name="ColumnHeader displays ArrowDownIcon when sorted descending" time="0.001">
+    </testcase>
+    <testcase classname="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" name="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" time="0.001">
+    </testcase>
+    <testcase classname="ColumnHeader calls toggleSorting when clicked" name="ColumnHeader calls toggleSorting when clicked" time="0.017">
+    </testcase>
+    <testcase classname="ColumnHeader toggles sorting direction when clicked" name="ColumnHeader toggles sorting direction when clicked" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="ProcessBatchChart Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:14" time="2.006" tests="2">
+    <testcase classname="ProcessBatchChart Component renders BarChart with data if process data is available" name="ProcessBatchChart Component renders BarChart with data if process data is available" time="0.033">
+    </testcase>
+    <testcase classname="BatchDeviationChart Component renders BarChart with deviation data if available" name="BatchDeviationChart Component renders BarChart with deviation data if available" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Table component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:15" time="1.708" tests="1">
+    <testcase classname="Table component renders table headers and cells correctly" name="Table component renders table headers and cells correctly" time="0.092">
+    </testcase>
+  </testsuite>
+  <testsuite name="TableSkeleton" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:14" time="2.378" tests="2">
+    <testcase classname="TableSkeleton renders without crashing" name="TableSkeleton renders without crashing" time="0.063">
+    </testcase>
+    <testcase classname="TableSkeleton renders correct number of rows and columns" name="TableSkeleton renders correct number of rows and columns" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColumnHeaderSortButton" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:14" time="2.878" tests="5">
+    <testcase classname="ColumnHeaderSortButton renders children correctly" name="ColumnHeaderSortButton renders children correctly" time="0.018">
+    </testcase>
+    <testcase classname="ColumnHeaderSortButton displays ArrowDownIcon when sorted descending" name="ColumnHeaderSortButton displays ArrowDownIcon when sorted descending" time="0.003">
+    </testcase>
+    <testcase classname="ColumnHeaderSortButton displays ArrowUpIcon when sorted ascending" name="ColumnHeaderSortButton displays ArrowUpIcon when sorted ascending" time="0.001">
+    </testcase>
+    <testcase classname="ColumnHeaderSortButton calls toggleSorting when clicked" name="ColumnHeaderSortButton calls toggleSorting when clicked" time="0.014">
+    </testcase>
+    <testcase classname="ColumnHeaderSortButton toggles sorting direction when clicked" name="ColumnHeaderSortButton toggles sorting direction when clicked" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="RM batches" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:16" time="1.857" tests="1">
+    <testcase classname="RM batches renders table headers and cells correctly" name="RM batches renders table headers and cells correctly" time="0.066">
+    </testcase>
+  </testsuite>
+  <testsuite name="DualDocumentContainer Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:15" time="3.167" tests="1">
+    <testcase classname="DualDocumentContainer Component initializes and renders component" name="DualDocumentContainer Component initializes and renders component" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="MaterialNavSelector" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:16" time="1.84" tests="3">
+    <testcase classname="MaterialNavSelector renders Autocomplete when materialSelector is provided" name="MaterialNavSelector renders Autocomplete when materialSelector is provided" time="0.058">
+    </testcase>
+    <testcase classname="MaterialNavSelector does not render Autocomplete when materialSelector is empty" name="MaterialNavSelector does not render Autocomplete when materialSelector is empty" time="0.001">
+    </testcase>
+    <testcase classname="MaterialNavSelector does not call onChangeSelector if no selection is made" name="MaterialNavSelector does not call onChangeSelector if no selection is made" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="BrowsingBatchesDataTable" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:17" time="1.366" tests="1">
+    <testcase classname="BrowsingBatchesDataTable renders table headers and cells correctly" name="BrowsingBatchesDataTable renders table headers and cells correctly" time="0.117">
+    </testcase>
+  </testsuite>
+  <testsuite name="BatchCoa" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:17" time="0.918" tests="2">
+    <testcase classname="BatchCoa should render BatchCoaTable when item prop is provided" name="BatchCoa should render BatchCoaTable when item prop is provided" time="0.033">
+    </testcase>
+    <testcase classname="BatchCoa should render TableSkeleton when item prop is not provided" name="BatchCoa should render TableSkeleton when item prop is not provided" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentConfirmExitModal" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:18" time="2.172" tests="4">
+    <testcase classname="DocumentConfirmExitModal should render button when openModal is false" name="DocumentConfirmExitModal should render button when openModal is false" time="0.014">
+    </testcase>
+    <testcase classname="DocumentConfirmExitModal should render button when openModal is true" name="DocumentConfirmExitModal should render button when openModal is true" time="0.001">
+    </testcase>
+    <testcase classname="DocumentConfirmExitModal should open modal when button is clicked" name="DocumentConfirmExitModal should open modal when button is clicked" time="0.055">
+    </testcase>
+    <testcase classname="DocumentConfirmExitModal should close modal and discard changes when discard button is clicked" name="DocumentConfirmExitModal should close modal and discard changes when discard button is clicked" time="0.038">
+    </testcase>
+  </testsuite>
+  <testsuite name="Metrics" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:18" time="2.016" tests="1">
+    <testcase classname="Metrics renders all metric cards correctly" name="Metrics renders all metric cards correctly" time="0.025">
+    </testcase>
+  </testsuite>
+  <testsuite name="PendingReviewLayout Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:18" time="2.045" tests="4">
+    <testcase classname="PendingReviewLayout Component fetches and renders document data correctly" name="PendingReviewLayout Component fetches and renders document data correctly" time="0.007">
+    </testcase>
+    <testcase classname="PendingReviewLayout Component renders &quot;Pending Approval&quot; status correctly" name="PendingReviewLayout Component renders &quot;Pending Approval&quot; status correctly" time="0.022">
+    </testcase>
+    <testcase classname="PendingReviewLayout Component renders &quot;Approved&quot; status correctly" name="PendingReviewLayout Component renders &quot;Approved&quot; status correctly" time="0.005">
+    </testcase>
+    <testcase classname="PendingReviewLayout Component calculates prevId correctly when currIndex is not the first index" name="PendingReviewLayout Component calculates prevId correctly when currIndex is not the first index" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="DocumentZoomController Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:20" time="1.045" tests="5">
+    <testcase classname="DocumentZoomController Component renders correctly" name="DocumentZoomController Component renders correctly" time="0.012">
+    </testcase>
+    <testcase classname="DocumentZoomController Component handles zoom reset, zoom in and zoom out" name="DocumentZoomController Component handles zoom reset, zoom in and zoom out" time="0.004">
+    </testcase>
+    <testcase classname="DocumentZoomController Component handles document load success" name="DocumentZoomController Component handles document load success" time="0.005">
+    </testcase>
+    <testcase classname="DocumentZoomController Component handles download" name="DocumentZoomController Component handles download" time="0.007">
+    </testcase>
+    <testcase classname="DocumentZoomController Component updates container size on window resize" name="DocumentZoomController Component updates container size on window resize" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="TooltipMultipleVersion" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:20" time="0.7" tests="6">
+    <testcase classname="TooltipMultipleVersion renders latest edit information correctly" name="TooltipMultipleVersion renders latest edit information correctly" time="0.01">
+    </testcase>
+    <testcase classname="TooltipMultipleVersion renders last edit before latest information when edit length is greater than 1" name="TooltipMultipleVersion renders last edit before latest information when edit length is greater than 1" time="0.005">
+    </testcase>
+    <testcase classname="TooltipMultipleVersion renders danger chip when confidence is low" name="TooltipMultipleVersion renders danger chip when confidence is low" time="0.002">
+    </testcase>
+    <testcase classname="FormTooltip renders original tooltip when pathData.version is 0 and not editing" name="FormTooltip renders original tooltip when pathData.version is 0 and not editing" time="0.011">
+    </testcase>
+    <testcase classname="FormTooltip renders edit tooltip when field is dirty and not editing" name="FormTooltip renders edit tooltip when field is dirty and not editing" time="0.003">
+    </testcase>
+    <testcase classname="FormTooltip updates edits when Tooltip is opened due to changes in path or id" name="FormTooltip updates edits when Tooltip is opened due to changes in path or id" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="MetricCard" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:21" time="0.604" tests="5">
+    <testcase classname="MetricCard renders with title and value" name="MetricCard renders with title and value" time="0.011">
+    </testcase>
+    <testcase classname="MetricCard displays loader when loading" name="MetricCard displays loader when loading" time="0.002">
+    </testcase>
+    <testcase classname="MetricCard displays chip with success color when rate is positive" name="MetricCard displays chip with success color when rate is positive" time="0.003">
+    </testcase>
+    <testcase classname="MetricCard displays chip with danger color when rate is negative" name="MetricCard displays chip with danger color when rate is negative" time="0.003">
+    </testcase>
+    <testcase classname="MetricCard displays chip with default color when rate is zero" name="MetricCard displays chip with default color when rate is zero" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="RawMaterialLayout" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:20" time="1.311" tests="1">
+    <testcase classname="RawMaterialLayout renders correctly" name="RawMaterialLayout renders correctly" time="0.022">
+    </testcase>
+  </testsuite>
+  <testsuite name="ChartAxisLabel component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:21" time="0.796" tests="2">
+    <testcase classname="ChartAxisLabel component renders the tick label with adjusted textY value" name="ChartAxisLabel component renders the tick label with adjusted textY value" time="0.339">
+    </testcase>
+    <testcase classname="renderTick function renders the tick label with adjusted textY value" name="renderTick function renders the tick label with adjusted textY value" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="columns configuration" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:22" time="0.955" tests="2">
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.015">
+    </testcase>
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="MaterialNavbar Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:22" time="0.985" tests="1">
+    <testcase classname="MaterialNavbar Component renders MaterialNavbar component with links and children" name="MaterialNavbar Component renders MaterialNavbar component with links and children" time="0.03">
+    </testcase>
+  </testsuite>
+  <testsuite name="TrendsRadioGroup Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:23" time="1.192" tests="3">
+    <testcase classname="TrendsRadioGroup Component renders correctly with the given props" name="TrendsRadioGroup Component renders correctly with the given props" time="0.015">
+    </testcase>
+    <testcase classname="TrendsRadioGroup Component calls onChange when a radio option is selected" name="TrendsRadioGroup Component calls onChange when a radio option is selected" time="0.008">
+    </testcase>
+    <testcase classname="TrendsRadioGroup Component disables radio options when loading is true" name="TrendsRadioGroup Component disables radio options when loading is true" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColumnHeader" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:24" time="0.43" tests="5">
+    <testcase classname="ColumnHeader renders children correctly" name="ColumnHeader renders children correctly" time="0.005">
+    </testcase>
+    <testcase classname="ColumnHeader displays ArrowDownIcon when sorted descending" name="ColumnHeader displays ArrowDownIcon when sorted descending" time="0.001">
+    </testcase>
+    <testcase classname="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" name="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" time="0.001">
+    </testcase>
+    <testcase classname="ColumnHeader calls toggleSorting when clicked" name="ColumnHeader calls toggleSorting when clicked" time="0.008">
+    </testcase>
+    <testcase classname="ColumnHeader toggles sorting direction when clicked" name="ColumnHeader toggles sorting direction when clicked" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="Page component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:18" time="6.726" tests="1">
+    <testcase classname="Page component renders DualDocumentContainer correctly with mock data" name="Page component renders DualDocumentContainer correctly with mock data" time="0.029">
+    </testcase>
+  </testsuite>
+  <testsuite name="Files Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:18" time="6.673" tests="1">
+    <testcase classname="Files Component renders correctly with fetched data" name="Files Component renders correctly with fetched data" time="0.019">
+    </testcase>
+  </testsuite>
+  <testsuite name="Breadcrumb" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:23" time="2.458" tests="2">
+    <testcase classname="Breadcrumb renders without crashing" name="Breadcrumb renders without crashing" time="0.009">
+    </testcase>
+    <testcase classname="Breadcrumb displays the correct home element and path links" name="Breadcrumb displays the correct home element and path links" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="task Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:22" time="3.545" tests="1">
+    <testcase classname="task Component renders correctly with fetched data" name="task Component renders correctly with fetched data" time="0.017">
+    </testcase>
+  </testsuite>
+  <testsuite name="Material Service" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:24" time="0.952" tests="18">
+    <testcase classname="Material Service should fetch materials with filters" name="Material Service should fetch materials with filters" time="0.001">
+    </testcase>
+    <testcase classname="Material Service should fetch material metrics" name="Material Service should fetch material metrics" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch material batches" name="Material Service should fetch material batches" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch material profile by ID" name="Material Service should fetch material profile by ID" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch batch characteristics by material and batch ID" name="Material Service should fetch batch characteristics by material and batch ID" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch overview deviations" name="Material Service should fetch overview deviations" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch material deviations by material ID" name="Material Service should fetch material deviations by material ID" time="0.001">
+    </testcase>
+    <testcase classname="Material Service should fetch material by ID" name="Material Service should fetch material by ID" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch material batches by ID" name="Material Service should fetch material batches by ID" time="0.009">
+    </testcase>
+    <testcase classname="Material Service should fetch material selector" name="Material Service should fetch material selector" time="0.001">
+    </testcase>
+    <testcase classname="Material Service should fetch process dropdowns for material" name="Material Service should fetch process dropdowns for material" time="0.001">
+    </testcase>
+    <testcase classname="Material Service should fetch material correlation data by ID with params" name="Material Service should fetch material correlation data by ID with params" time="0.001">
+    </testcase>
+    <testcase classname="Material Service should fetch material trends by ID with params" name="Material Service should fetch material trends by ID with params" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch material trends radio data by ID with params" name="Material Service should fetch material trends radio data by ID with params" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch batch characteristics by ID and filter" name="Material Service should fetch batch characteristics by ID and filter" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch material process by ID" name="Material Service should fetch material process by ID" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch overview process data" name="Material Service should fetch overview process data" time="0">
+    </testcase>
+    <testcase classname="Material Service should fetch material Specs by ID" name="Material Service should fetch material Specs by ID" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="InsightCard Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:25" time="0.832" tests="1">
+    <testcase classname="InsightCard Component renders without crashing" name="InsightCard Component renders without crashing" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColumnHeader" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:25" time="1.036" tests="5">
+    <testcase classname="ColumnHeader renders children correctly" name="ColumnHeader renders children correctly" time="0.005">
+    </testcase>
+    <testcase classname="ColumnHeader displays ArrowDownIcon when sorted descending" name="ColumnHeader displays ArrowDownIcon when sorted descending" time="0.007">
+    </testcase>
+    <testcase classname="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" name="ColumnHeader displays rotated ArrowDownIcon when sorted ascending" time="0.002">
+    </testcase>
+    <testcase classname="ColumnHeader calls toggleSorting when clicked" name="ColumnHeader calls toggleSorting when clicked" time="0.013">
+    </testcase>
+    <testcase classname="ColumnHeader toggles sorting direction when clicked" name="ColumnHeader toggles sorting direction when clicked" time="0.01">
+    </testcase>
+  </testsuite>
+  <testsuite name="InsightList Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:25" time="0.932" tests="1">
+    <testcase classname="InsightList Component renders Card, CardHeader, and Chip correctly" name="InsightList Component renders Card, CardHeader, and Chip correctly" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="BreadcrumbNav" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:25" time="1.141" tests="3">
+    <testcase classname="BreadcrumbNav renders all links" name="BreadcrumbNav renders all links" time="0.009">
+    </testcase>
+    <testcase classname="BreadcrumbNav renders BreadcrumbPage for links without path" name="BreadcrumbNav renders BreadcrumbPage for links without path" time="0.001">
+    </testcase>
+    <testcase classname="BreadcrumbNav renders links correctly" name="BreadcrumbNav renders links correctly" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="DynamicChips" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:26" time="0.571" tests="3">
+    <testcase classname="DynamicChips renders MultipleChips correctly" name="DynamicChips renders MultipleChips correctly" time="0.04">
+    </testcase>
+    <testcase classname="DynamicChips renders SingleChip correctly" name="DynamicChips renders SingleChip correctly" time="0.003">
+    </testcase>
+    <testcase classname="DynamicChips renders SingleChip with Tooltip when chipData length is more than 14" name="DynamicChips renders SingleChip with Tooltip when chipData length is more than 14" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="InsightOverview Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:25" time="1.538" tests="1">
+    <testcase classname="InsightOverview Component renders InsightCard correctly" name="InsightOverview Component renders InsightCard correctly" time="0.05">
+    </testcase>
+  </testsuite>
+  <testsuite name="columns configuration" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:26" time="0.997" tests="2">
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.037">
+    </testcase>
+    <testcase classname="columns configuration renders MissingIcon with danger color when expiry date is missing" name="columns configuration renders MissingIcon with danger color when expiry date is missing" time="0.028">
+    </testcase>
+  </testsuite>
+  <testsuite name="ChartCard" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:26" time="0.994" tests="2">
+    <testcase classname="ChartCard renders without crashing" name="ChartCard renders without crashing" time="0.016">
+    </testcase>
+    <testcase classname="ChartCard displays the correct title and children" name="ChartCard displays the correct title and children" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="Loading Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:26" time="1.592" tests="3">
+    <testcase classname="Loading Component renders without crashing" name="Loading Component renders without crashing" time="0.245">
+    </testcase>
+    <testcase classname="Loading Component renders the correct path attributes" name="Loading Component renders the correct path attributes" time="0.002">
+    </testcase>
+    <testcase classname="Loading Component renders with the correct fill attribute" name="Loading Component renders with the correct fill attribute" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ColumnHeader component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:27" time="0.972" tests="4">
+    <testcase classname="ColumnHeader component renders without crashing" name="ColumnHeader component renders without crashing" time="0.006">
+    </testcase>
+    <testcase classname="ColumnHeader component renders correct icon for desc sorted type" name="ColumnHeader component renders correct icon for desc sorted type" time="0.003">
+    </testcase>
+    <testcase classname="ColumnHeader component renders correct icon for asc sorted type" name="ColumnHeader component renders correct icon for asc sorted type" time="0.001">
+    </testcase>
+    <testcase classname="ColumnHeader component renders correct icon for default sorted type" name="ColumnHeader component renders correct icon for default sorted type" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Navbar" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:27" time="0.584" tests="2">
+    <testcase classname="Navbar renders all links in the desktop view" name="Navbar renders all links in the desktop view" time="0.006">
+    </testcase>
+    <testcase classname="Navbar renders the dropdown menu in the mobile view" name="Navbar renders the dropdown menu in the mobile view" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="AnalyticsInsights Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:27" time="1.181" tests="1">
+    <testcase classname="AnalyticsInsights Component renders MaterialNavbar and InsightPage correctly" name="AnalyticsInsights Component renders MaterialNavbar and InsightPage correctly" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="columns configuration" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:28" time="0.899" tests="1">
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="NoChartData Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:28" time="0.676" tests="2">
+    <testcase classname="NoChartData Component renders the correct text and NoChartIcon" name="NoChartData Component renders the correct text and NoChartIcon" time="0.002">
+    </testcase>
+    <testcase classname="NoChartData Component has the correct styles applied to the container" name="NoChartData Component has the correct styles applied to the container" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="columns configuration" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:27" time="1.846" tests="1">
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.026">
+    </testcase>
+  </testsuite>
+  <testsuite name="Correlation Component" errors="0" failures="0" skipped="2" timestamp="2024-10-24T11:14:27" time="1.563" tests="3">
+    <testcase classname="Correlation Component should render the component with necessary elements" name="Correlation Component should render the component with necessary elements" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Correlation Component should fetch and render heat map data after process selection" name="Correlation Component should fetch and render heat map data after process selection" time="0">
+      <skipped/>
+    </testcase>
+    <testcase classname="Correlation Component should render MaterialNavSelector with correct props" name="Correlation Component should render MaterialNavSelector with correct props" time="0.016">
+    </testcase>
+  </testsuite>
+  <testsuite name="ToastDownloadMultipleContent Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:29" time="0.435" tests="2">
+    <testcase classname="ToastDownloadMultipleContent Component renders component correctly" name="ToastDownloadMultipleContent Component renders component correctly" time="0.002">
+    </testcase>
+    <testcase classname="ToastDownloadMultipleContent Component calls download function on button click" name="ToastDownloadMultipleContent Component calls download function on button click" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="HighlightRegion" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:28" time="1.323" tests="2">
+    <testcase classname="HighlightRegion renders correctly when region data is available and visible" name="HighlightRegion renders correctly when region data is available and visible" time="0.016">
+    </testcase>
+    <testcase classname="HighlightRegion does not render when context visibility is false" name="HighlightRegion does not render when context visibility is false" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="HeatMapChart Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:29" time="0.979" tests="4">
+    <testcase classname="HeatMapChart Component renders the ResponsiveHeatMap component" name="HeatMapChart Component renders the ResponsiveHeatMap component" time="0.003">
+    </testcase>
+    <testcase classname="HeatMapChart Component passes correct props to ResponsiveHeatMap" name="HeatMapChart Component passes correct props to ResponsiveHeatMap" time="0.001">
+    </testcase>
+    <testcase classname="HeatMapChart Component applies correct theme to the ResponsiveHeatMap" name="HeatMapChart Component applies correct theme to the ResponsiveHeatMap" time="0">
+    </testcase>
+    <testcase classname="HeatMapChart Component configures legends correctly" name="HeatMapChart Component configures legends correctly" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="columns configuration" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:29" time="0.671" tests="1">
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.015">
+    </testcase>
+  </testsuite>
+  <testsuite name="ExtractedDataJson Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:29" time="0.623" tests="3">
+    <testcase classname="ExtractedDataJson Component has the correct class names" name="ExtractedDataJson Component has the correct class names" time="0.003">
+    </testcase>
+    <testcase classname="ExtractedDataJson Component pre element has correct class names" name="ExtractedDataJson Component pre element has correct class names" time="0.002">
+    </testcase>
+    <testcase classname="ExtractedDataJson Component code element has correct class names" name="ExtractedDataJson Component code element has correct class names" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="ToastDownloadContent Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:30" time="0.638" tests="2">
+    <testcase classname="ToastDownloadContent Component renders component with correct content" name="ToastDownloadContent Component renders component with correct content" time="0.008">
+    </testcase>
+    <testcase classname="ToastDownloadContent Component calls download function when button is clicked" name="ToastDownloadContent Component calls download function when button is clicked" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="ToastContainerShell" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:29" time="0.703" tests="1">
+    <testcase classname="ToastContainerShell renders without crashing" name="ToastContainerShell renders without crashing" time="0.008">
+    </testcase>
+  </testsuite>
+  <testsuite name="columns configuration" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:29" time="1.473" tests="1">
+    <testcase classname="columns configuration renders table with columns correctly" name="columns configuration renders table with columns correctly" time="0.009">
+    </testcase>
+  </testsuite>
+  <testsuite name="Page Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:29" time="1.124" tests="2">
+    <testcase classname="Page Component renders correctly with fetched data" name="Page Component renders correctly with fetched data" time="0.022">
+    </testcase>
+    <testcase classname="Page Component passes empty array as flattenJson prop when flattenJson is null" name="Page Component passes empty array as flattenJson prop when flattenJson is null" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="RawMaterial Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:30" time="0.2" tests="1">
+    <testcase classname="RawMaterial Component renders OverviewRawMaterial correctly" name="RawMaterial Component renders OverviewRawMaterial correctly" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="HighlightRegionCtx" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:30" time="0.779" tests="1">
+    <testcase classname="HighlightRegionCtx provides initial context values" name="HighlightRegionCtx provides initial context values" time="0.041">
+    </testcase>
+  </testsuite>
+  <testsuite name="LineChart Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:30" time="0.739" tests="3">
+    <testcase classname="LineChart Component renders the ResponsiveLine component" name="LineChart Component renders the ResponsiveLine component" time="0.006">
+    </testcase>
+    <testcase classname="LineChart Component passes correct props to ResponsiveLine" name="LineChart Component passes correct props to ResponsiveLine" time="0.002">
+    </testcase>
+    <testcase classname="LineChart Component applies correct theme to the ResponsiveLine" name="LineChart Component applies correct theme to the ResponsiveLine" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="BarChart Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:30" time="1.167" tests="3">
+    <testcase classname="BarChart Component renders the ResponsiveBar component" name="BarChart Component renders the ResponsiveBar component" time="0.018">
+    </testcase>
+    <testcase classname="BarChart Component passes correct props to ResponsiveBar" name="BarChart Component passes correct props to ResponsiveBar" time="0.001">
+    </testcase>
+    <testcase classname="BarChart Component applies correct theme to the ResponsiveBar" name="BarChart Component applies correct theme to the ResponsiveBar" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Browse Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:30" time="1.121" tests="1">
+    <testcase classname="Browse Component renders BrowseDocuments component" name="Browse Component renders BrowseDocuments component" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="HotjarComponent" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:31" time="0.978" tests="2">
+    <testcase classname="HotjarComponent should call useHotjar with the correct Hotjar ID and version" name="HotjarComponent should call useHotjar with the correct Hotjar ID and version" time="0.001">
+    </testcase>
+    <testcase classname="HotjarComponent should not render anything in the DOM" name="HotjarComponent should not render anything in the DOM" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="auth module" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:31" time="0.712" tests="7">
+    <testcase classname="auth module isExpired should return true if token is expired" name="auth module isExpired should return true if token is expired" time="0">
+    </testcase>
+    <testcase classname="auth module isExpired should return false if token is not expired" name="auth module isExpired should return false if token is not expired" time="0.001">
+    </testcase>
+    <testcase classname="auth module getExpiresAt should return correct expiration time" name="auth module getExpiresAt should return correct expiration time" time="0">
+    </testcase>
+    <testcase classname="auth module jwtCallback should return token with account details if account is provided" name="auth module jwtCallback should return token with account details if account is provided" time="0">
+    </testcase>
+    <testcase classname="auth module jwtCallback should rotate access token if token is expired" name="auth module jwtCallback should rotate access token if token is expired" time="0">
+    </testcase>
+    <testcase classname="auth module jwtCallback should return token if it is not expired" name="auth module jwtCallback should return token if it is not expired" time="0">
+    </testcase>
+    <testcase classname="auth module sessionCallback should merge session and token" name="auth module sessionCallback should merge session and token" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="digitizationApi" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:31" time="0.442" tests="13">
+    <testcase classname="digitizationApi getDocumentById should call http.get with the correct URL" name="digitizationApi getDocumentById should call http.get with the correct URL" time="0.001">
+    </testcase>
+    <testcase classname="digitizationApi getDocumentEditsById should call http.get with the correct URL" name="digitizationApi getDocumentEditsById should call http.get with the correct URL" time="0">
+    </testcase>
+    <testcase classname="digitizationApi getPendingDocuments should call http.get with the correct URL and query params" name="digitizationApi getPendingDocuments should call http.get with the correct URL and query params" time="0">
+    </testcase>
+    <testcase classname="digitizationApi rejectPendingDocument should call http.put with the correct URL and data" name="digitizationApi rejectPendingDocument should call http.put with the correct URL and data" time="0">
+    </testcase>
+    <testcase classname="digitizationApi approvePendingDocument should call http.put with the correct URL and data" name="digitizationApi approvePendingDocument should call http.put with the correct URL and data" time="0">
+    </testcase>
+    <testcase classname="digitizationApi approveEditsDocument should call http.put with the correct URL and data" name="digitizationApi approveEditsDocument should call http.put with the correct URL and data" time="0.001">
+    </testcase>
+    <testcase classname="digitizationApi getApprovedDocumentsByFilter should call http.get with the correct URL and query params" name="digitizationApi getApprovedDocumentsByFilter should call http.get with the correct URL and query params" time="0.001">
+    </testcase>
+    <testcase classname="digitizationApi getDocumentsByFilter should call http.get with the correct URL and query params" name="digitizationApi getDocumentsByFilter should call http.get with the correct URL and query params" time="0.001">
+    </testcase>
+    <testcase classname="digitizationApi getDocumentDownload should call http.get with the correct URL and query params" name="digitizationApi getDocumentDownload should call http.get with the correct URL and query params" time="0">
+    </testcase>
+    <testcase classname="digitizationApi getDocumentJson should call http.get with the correct URL" name="digitizationApi getDocumentJson should call http.get with the correct URL" time="0">
+    </testcase>
+    <testcase classname="digitizationApi getMultipleDocumentJson should call http.get with the correct URL" name="digitizationApi getMultipleDocumentJson should call http.get with the correct URL" time="0">
+    </testcase>
+    <testcase classname="digitizationApi getMetrics should call http.get with the correct URL" name="digitizationApi getMetrics should call http.get with the correct URL" time="0.001">
+    </testcase>
+    <testcase classname="digitizationApi getMetaData should call http.get with the correct URL" name="digitizationApi getMetaData should call http.get with the correct URL" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="handleJsonDownload" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:32" time="0.335" tests="3">
+    <testcase classname="handleJsonDownload should download the JSON data" name="handleJsonDownload should download the JSON data" time="0.004">
+    </testcase>
+    <testcase classname="handleJsonDownload should throw an error when download fails" name="handleJsonDownload should throw an error when download fails" time="0">
+    </testcase>
+    <testcase classname="handleJsonDownload should throw an error if getDocumentJson fails" name="handleJsonDownload should throw an error if getDocumentJson fails" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="kyInstance" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:32" time="0.363" tests="3">
+    <testcase classname="kyInstance should create a ky instance with the correct configuration" name="kyInstance should create a ky instance with the correct configuration" time="0.003">
+    </testcase>
+    <testcase classname="authorizationHook should set the Authorization header correctly" name="authorizationHook should set the Authorization header correctly" time="0.001">
+    </testcase>
+    <testcase classname="authorizationHook should throw an error if the session is not found" name="authorizationHook should throw an error if the session is not found" time="0.003">
+    </testcase>
+  </testsuite>
+  <testsuite name="transformResponse" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:32" time="0.321" tests="3">
+    <testcase classname="transformResponse should transform API response to the correct format" name="transformResponse should transform API response to the correct format" time="0.001">
+    </testcase>
+    <testcase classname="transformResponse should handle empty API response" name="transformResponse should handle empty API response" time="0">
+    </testcase>
+    <testcase classname="transformResponse should handle API response with missing fields" name="transformResponse should handle API response with missing fields" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="RawMaterialLayout Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:31" time="1.094" tests="1">
+    <testcase classname="RawMaterialLayout Component renders children correctly" name="RawMaterialLayout Component renders children correctly" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="test" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:32" time="0.058" tests="1">
+    <testcase classname="test test" name="test test" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="DateRangePicker Component" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:32" time="0.345" tests="4">
+    <testcase classname="DateRangePicker Component renders the DateRangePicker component with initial dates" name="DateRangePicker Component renders the DateRangePicker component with initial dates" time="0">
+    </testcase>
+    <testcase classname="DateRangePicker Component toggles the calendar visibility when the button is clicked" name="DateRangePicker Component toggles the calendar visibility when the button is clicked" time="0">
+    </testcase>
+    <testcase classname="DateRangePicker Component calls onChangeCalendarRange with the correct dates when a date range is selected" name="DateRangePicker Component calls onChangeCalendarRange with the correct dates when a date range is selected" time="0">
+    </testcase>
+    <testcase classname="DateRangePicker Component hides the calendar after selecting a date range" name="DateRangePicker Component hides the calendar after selecting a date range" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="cn function" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:32" time="0.367" tests="15">
+    <testcase classname="cn function merges class names correctly" name="cn function merges class names correctly" time="0.003">
+    </testcase>
+    <testcase classname="cn function handles empty strings and undefined values" name="cn function handles empty strings and undefined values" time="0">
+    </testcase>
+    <testcase classname="cn function removes duplicates and merges with Tailwind rules" name="cn function removes duplicates and merges with Tailwind rules" time="0">
+    </testcase>
+    <testcase classname="download should create a Blob and trigger a download" name="download should create a Blob and trigger a download" time="0.001">
+    </testcase>
+    <testcase classname="convertToTitleCase function converts camelCase and PascalCase to Title Case" name="convertToTitleCase function converts camelCase and PascalCase to Title Case" time="0">
+    </testcase>
+    <testcase classname="convertToTitleCase function handles strings with dots and splits on uppercase" name="convertToTitleCase function handles strings with dots and splits on uppercase" time="0">
+    </testcase>
+    <testcase classname="convertToTitleCase function returns an empty string when input is not a string" name="convertToTitleCase function returns an empty string when input is not a string" time="0">
+    </testcase>
+    <testcase classname="parseQueryParams function converts object to URLSearchParams correctly" name="parseQueryParams function converts object to URLSearchParams correctly" time="0.001">
+    </testcase>
+    <testcase classname="parseQueryParams function ignores undefined, null, and empty string values" name="parseQueryParams function ignores undefined, null, and empty string values" time="0">
+    </testcase>
+    <testcase classname="parseQueryParams function handles single values and arrays" name="parseQueryParams function handles single values and arrays" time="0">
+    </testcase>
+    <testcase classname="parseQueryParams function should map provided month values correctly and set missing months to 0" name="parseQueryParams function should map provided month values correctly and set missing months to 0" time="0">
+    </testcase>
+    <testcase classname="getMaterialNameById should return the name of the material when the ID is found" name="getMaterialNameById should return the name of the material when the ID is found" time="0">
+    </testcase>
+    <testcase classname="getMaterialNameById should return an empty string when the ID is not found" name="getMaterialNameById should return an empty string when the ID is not found" time="0.001">
+    </testcase>
+    <testcase classname="getMaterialNameById should return an empty string when the materialSelector is undefined" name="getMaterialNameById should return an empty string when the materialSelector is undefined" time="0">
+    </testcase>
+    <testcase classname="getMaterialNameById should return an empty string when the materialSelector is empty" name="getMaterialNameById should return an empty string when the materialSelector is empty" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="authClient" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:32" time="0.305" tests="1">
+    <testcase classname="authClient should get client session" name="authClient should get client session" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="oauth" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:32" time="0.271" tests="1">
+    <testcase classname="oauth should rotate access token" name="oauth should rotate access token" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="Material Overview Page" errors="0" failures="0" skipped="0" timestamp="2024-10-24T11:14:32" time="1.781" tests="1">
+    <testcase classname="Material Overview Page renders correctly" name="Material Overview Page renders correctly" time="0.124">
+    </testcase>
+  </testsuite>
+</testsuites>

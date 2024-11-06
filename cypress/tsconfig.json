@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "isolatedModules": false,
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "typeRoots": ["../node_modules/@types"],
+    "types": ["node"]
+  },
+  "include": ["./**/*", "../node_modules/cypress", "./.d.ts"],
+  "exclude": []
+}

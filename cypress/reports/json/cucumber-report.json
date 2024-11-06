@@ -1,0 +1,63 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "page;visiting-the-home-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "visiting the home page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I visit Home page",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "should display Raw Materials section",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "should display Documents section",
+            "match": {
+              "location": "not available:0"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "page",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "page",
+    "tags": [],
+    "uri": "cypress/integration/page.feature"
+  }
+]
